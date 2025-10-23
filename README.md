@@ -1,16 +1,28 @@
-# shamel_fibo
+# Fibo - E-Commerce Application
 
-A new Flutter project.
+A full-featured e-commerce Flutter application with Stripe payment integration, shopping cart management, real-time product search, and multi-language support.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Product catalog with real-time search
+- Debounced search for optimal performance
+- Shopping cart with add/remove/update functionality
+- Secure payment processing via Stripe
+- User authentication (Login/Register)
+- Multi-language support (Arabic/English)
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture & Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Architecture Pattern:** MVC (Model-View-Controller)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Tech Stack:**
+- **State Management:** Provider
+- **HTTP Client:** Dio
+- **Payment Gateway:** Stripe API
+- **Localization:** Easy Localization
+- **Real-time Search:** RxDart (debouncing)
+- **Routing:** Flutter Navigator
+
+**Data Source:**
+- Dummy JSON APIs for product catalog
+- Stripe API for payment processing
