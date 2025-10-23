@@ -1,0 +1,14 @@
+{
+    "Auth":{
+        "email":"Email",
+        "password":"Password",
+        "login":"Login",
+        "register":"Register",
+        "or":"Or"
+    },
+    "Home":{
+        "title":"Title",
+        "profile":"Profile",
+        "logout":"Logout"
+    }
+}
